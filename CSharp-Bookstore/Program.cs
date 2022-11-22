@@ -15,7 +15,7 @@ string flessibile = "Sì";
 
 Console.WriteLine($"------------ {titolo} di {autore} ----------------");
 Console.WriteLine();
-Console.WriteLine($"Informazioni generiche: \nISBN: {isbn} \nNumero delle pagine: {numeroPagine}\nPeso del libro: {pesoLibro}\nDimensioni del libro: {larghezza} X {profondità} X {altezza}");
+Console.WriteLine($"Informazioni generiche: \nISBN: {isbn} \nNumero delle pagine: {numeroPagine} pagine\nPeso del libro: {pesoLibro}g\nDimensioni del libro: {larghezza}cm X {profondità}cm X {altezza}cm");
 Console.WriteLine();
 Console.WriteLine($"Informazioni di Amazon: \nNumero di recensioni: {numeroRecensioni}\nValutazione media: {valutazione}/5\nKindle disponibile: {kindle}\nCopertina flessibile disponibile: {flessibile}");
 Console.WriteLine();
